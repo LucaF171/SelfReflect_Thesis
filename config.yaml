@@ -1,0 +1,13 @@
+num_questions: 20
+num_answers: 5
+model_name: "Qwen/Qwen2.5-7B-Instruct"
+dataset_name: "google-research-datasets/natural_questions"
+generate_answers: false
+evaluation_dataset: "manual_summaries.json"
+result_folder: "results/"
+output_file: "questions_and_answers_output"
+custom_output_file: false
+approach: "2"  # Options: "1", "2", "3", "4", "all"
+seed: 42
+# TODO can be adapted
+system_prompt: "You are a friendly chatbot who always responds with short and concise answers.\n"
